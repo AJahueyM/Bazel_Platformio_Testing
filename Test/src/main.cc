@@ -1,15 +1,16 @@
 #include <Arduino.h>
 
 #ifdef PLATFORMIO_BUILD
-#include <Test.h>  // This is how PlatformIO sees and includes the library.
-#else
-#include "src/test.h" // This is for native C++.
+#include <test-library.h>  // This is how PlatformIO sees and includes the library.
 #endif
 
 
-Testing test;
+Test test;
 void setup(){
-//	Serial.begin(9600);
+	Serial.begin(9600);
+	Serial.println(test.sum(1, 2));
+	Serial.println(test.sum(90, 180));
+	Serial.println(test.getSumation());
 }
 
 

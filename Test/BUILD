@@ -17,5 +17,5 @@ platformio_project(
 	board = "megaatmega2560",
 	framework = "arduino",
 	platform = "atmelavr",
-	deps = [":Test"]
+	deps = ["@LibraryTest//src:test_library"]
 )

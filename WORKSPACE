@@ -5,3 +5,9 @@ git_repository(
     remote = "http://github.com/mum4k/platformio_rules.git",
     tag = "v0.0.10"
 )
+
+git_repository(
+	name = "LibraryTest",
+	remote = "https://github.com/AJahueyM/Bazel_Platformio_Library_Test",
+	tag = "1.3"
+)
