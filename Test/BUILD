@@ -5,12 +5,6 @@ load(
 	"platformio_library"
 )
 
-platformio_library(
-	name = "Test",
-	hdr = "src/test.h",
-	src = "src/test.cc"
-)
-
 platformio_project(
 	name = "Test_Project",
 	src = "src/main.cc" ,
