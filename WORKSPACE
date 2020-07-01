@@ -9,5 +9,5 @@ git_repository(
 git_repository(
 	name = "LibraryTest",
 	remote = "https://github.com/AJahueyM/Bazel_Platformio_Library_Test",
-	tag = "1.3"
+	tag = "2.2"
 )

@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 #ifdef PLATFORMIO_BUILD
-#include <test-library.h>  // This is how PlatformIO sees and includes the library.
+#include <Test-Library.h>  // This is how PlatformIO sees and includes the library.
 #endif
 
 
